@@ -32,6 +32,7 @@ services:
   
   phpmyadmin:
     image: phpmyadmin
+    container_name: phpadmin-container
     ports:
         - '6060:80'
     restart: always
